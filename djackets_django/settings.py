@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STRIPE_SECRET_KEY = ''  # it`s need to register the business in stripe before
 
 # Application definition
 
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'djoser',
 
     'product',
+    'order',
 ]
 
 # DEBUG
